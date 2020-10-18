@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 namespace combat;
 
-use core\combat\boss\Boss;
-use core\combat\boss\BossException;
-use core\combat\boss\types\Alien;
-use core\combat\boss\types\CorruptedKing;
-use core\combat\boss\types\Witcher;
+use combat\boss\Boss;
+use combat\boss\BossException;
+use combat\boss\types\Alien;
+use combat\boss\types\CorruptedKing;
+use combat\boss\types\Witcher;
 use pocketmine\entity\Entity;
 use pocketmine\level\Level;
 use pocketmine\nbt\tag\CompoundTag;
