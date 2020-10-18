@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace core\combat;
+namespace combat;
 
 use core\combat\boss\Boss;
 use core\combat\boss\BossException;
