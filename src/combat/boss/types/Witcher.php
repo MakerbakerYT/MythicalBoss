@@ -2,14 +2,12 @@
 
 namespace core\combat\boss\types;
 
-use core\combat\boss\Boss;
-use core\item\ItemManager;
-use core\item\types\EnchantmentBook;
-use core\item\types\LuckyBlock;
-use core\item\types\MoneyNote;
-use core\item\types\SacredStone;
-use core\Mythical;
-use core\MythicalPlayer;
+use combat\boss\Boss;
+use item\ItemManager;
+use item\types\EnchantmentBook;
+use item\types\LuckyBlock;
+use item\types\MoneyNote;
+use item\types\SacredStone;
 use libs\utils\Utils;
 use pocketmine\level\Level;
 use pocketmine\nbt\tag\CompoundTag;
@@ -51,9 +49,9 @@ class Witcher extends Boss {
 
     public function onDeath(): void {
         $rewards = [
-            (new EnchantmentBook(ItemManager::getRandomEnchantment()))->getItemForm(),
-            (new LuckyBlock(100))->getItemForm(),
-            (new SacredStone())->getItemForm()->setCount(mt_rand(1, 4)),
+           // (new EnchantmentBook(ItemManager::getRandomEnchantment()))->getItemForm(),
+            //(new LuckyBlock(100))->getItemForm(),
+            //(new SacredStone())->getItemForm()->setCount(mt_rand(1, 4)),
             (new MoneyNote(mt_rand(100000, 250000)))->getItemForm()
         ];
         $d = null;
