@@ -1,6 +1,6 @@
 <?php
 
-namespace core\combat\boss\tasks;
+namespace combat\boss\tasks;
 
 use combat\boss\Boss;
 use combat\boss\types\{Alien, Witcher, CorruptedKing};
