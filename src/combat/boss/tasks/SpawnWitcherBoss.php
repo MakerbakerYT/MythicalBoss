@@ -2,9 +2,9 @@
 
 namespace core\combat\boss\tasks;
 
-use core\combat\boss\Boss;
-use core\combat\boss\types\{Alien, Witcher, CorruptedKing};
-use core\Mythical;
+use combat\boss\Boss;
+use combat\boss\types\{Alien, Witcher, CorruptedKing};
+//use core\Mythical;
 use pocketmine\entity\Entity;
 use pocketmine\entity\Human;
 use pocketmine\math\Vector3;
