@@ -1,6 +1,6 @@
 name: MythicalCore
 author: Kingbob
-main: Boss\BossManager
+main: combat\CombatManager.php
 version: "1.0.0"
 api: 3.1.0
 description: Mythical Boss
