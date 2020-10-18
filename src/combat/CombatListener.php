@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace core\combat;
+namespace combat;
 
 use core\combat\boss\ArtificialIntelligence;
 use core\item\types\Drops;
@@ -36,8 +36,6 @@ class CombatListener implements Listener {
     /** @var int[] */
     public $enderPearlCooldown = [];
 
-    /** @var Cryptic */
-    private $core;
 
     private const WHITELISTED = [
         "/gamemode",
@@ -54,14 +52,6 @@ class CombatListener implements Listener {
         "/staffmode"
     ];
 
-    /**
-     * CombatListener constructor.
-     *
-     * @param Cryptic $core
-     */
-    public function __construct(Mythical $core) {
-        $this->core = $core;
-    }
 
     /**
      * @priority NORMAL
