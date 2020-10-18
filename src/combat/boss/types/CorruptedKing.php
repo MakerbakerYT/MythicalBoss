@@ -1,17 +1,17 @@
 <?php
 
-namespace core\combat\boss\types;
+namespace combat\boss\types;
 
-use core\combat\boss\Boss;
-use core\item\ItemManager;
-use core\item\types\EnchantmentBook;
-use core\item\types\EnchantmentRemover;
-use core\item\types\HolyBox;
-use core\item\types\LuckyBlock;
-use core\item\types\MoneyNote;
-use core\item\types\SacredStone;
-use core\item\types\SellWand;
-use core\item\types\XPNote;
+use combat\boss\Boss;
+use item\ItemManager;
+use item\types\EnchantmentBook;
+use item\types\EnchantmentRemover;
+use item\types\HolyBox;
+use item\types\LuckyBlock;
+use item\types\MoneyNote;
+use item\types\SacredStone;
+use item\types\SellWand;
+use item\types\XPNote;
 use core\Mythical;
 use libs\utils\Utils;
 use pocketmine\item\GoldenAppleEnchanted;
