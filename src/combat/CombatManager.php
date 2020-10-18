@@ -15,9 +15,6 @@ use pocketmine\nbt\tag\CompoundTag;
 
 class CombatManager {
 
-    /** @var Cryptic */
-    private $core;
-
     /** @var CombatListener */
     private $listener;
 
@@ -27,11 +24,6 @@ class CombatManager {
     /** @var Boss[] */
     private $spawned = [];
 
-    /**
-     * CombatManager constructor.
-     * @param Cryptic $core
-     * @throws BossException
-     */
 
     /**
      * @throws BossException
