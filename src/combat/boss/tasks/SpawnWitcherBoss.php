@@ -9,6 +9,7 @@ use pocketmine\entity\Entity;
 use pocketmine\entity\Human;
 use pocketmine\math\Vector3;
 use pocketmine\scheduler\Task;
+use pocketmine\level\Position;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat as C;
 
